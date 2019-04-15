@@ -1,0 +1,11 @@
+{
+  "packageDirectories": [
+    {
+      "path": "trello-widget",
+      "default": true
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Private</cacheControl>
+    <contentType>text/javascript</contentType>
+    <description>The Trello Javascript file to be able to embed boards and cards based on a URL - https://p.trellocdn.com/embed.min.js</description>
+</StaticResource>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="trelloWidget">
+    <apiVersion>45.0</apiVersion>
+    <description>Allows users to embed a Trello board or a Trello card based on its URL.</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Trello Widget</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage">
+            <property name="displayOption" label="Display Option" type="String" required="true" datasource="Trello Board,Trello Card,Trello Card Compact" default="Trello Board" description="Used to control whether you display a Trello Board, Trello Card or a Trello Compact Card."/>
+            <property name="url" label="URL" type="String" required="true" default="https://trello.com/" description="The URL of the Trello board or Trello card you wish to display."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
