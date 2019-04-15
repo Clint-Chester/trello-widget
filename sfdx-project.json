@@ -1,11 +1,17 @@
 {
-  "packageDirectories": [
-    {
-      "path": "trello-widget",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "trello-widget",
+            "package": "Trello Widget",
+            "versionName": "Version 1.0",
+            "versionNumber": "1.0.0.NEXT",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "45.0",
+    "packageAliases": {
+        "Trello Widget": "0Ho0I000000blMhSAI"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "45.0"
 }
