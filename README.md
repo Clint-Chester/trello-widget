@@ -1,6 +1,7 @@
 # Trello Widget
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ec6d0a57e364458918e11aeedee87a5)](https://www.codacy.com/app/Edgewater-Cricket-Club/trello-widget?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edgewatercricketclub/trello-widget&amp;utm_campaign=Badge_Grade)
+[![codecov](https://codecov.io/gh/edgewatercricketclub/trello-widget/branch/master/graph/badge.svg)](https://codecov.io/gh/edgewatercricketclub/trello-widget)
 
 A Lightning Component that allows for a Trello Board or Trello Card to be displayed
 on a Lightning Page.
