@@ -1,0 +1,24 @@
+{
+  "name": "trello-widget",
+  "version": "1.0.0",
+  "description": "A Lightning Component that allows for a Trello Board or Trello Card to be displayed on a Lightning Page.",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "lwc-jest",
+    "test:unit:watch": "lwc-jest --watch",
+    "test:unit:debug": "lwc-jest --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgewatercricketclub/trello-widget.git"
+  },
+  "author": "Clint Chester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgewatercricketclub/trello-widget/issues"
+  },
+  "homepage": "https://github.com/edgewatercricketclub/trello-widget#readme",
+  "devDependencies": {
+    "@salesforce/lwc-jest": "^0.4.12"
+  }
+}
