@@ -2,12 +2,12 @@
 import { createElement } from "lwc";
 // trelloWidget is the component being tested
 import trelloWidget from "c/trelloWidget";
-import { loadScript } from 'lightning/platformResourceLoader';
+import { loadScript } from "lightning/platformResourceLoader";
 
 describe("Trello Widget", () => {
     it("has loaded the Trello Embed JavaScript resource", () => {
         // Given
-        const TRELLOEMBED_JS = 'trelloEmbed';
+        const TRELLOEMBED_JS = "trelloEmbed";
         const element = createElement("c-trello-widget", { is: trelloWidget });
         // When
         element.displayOption = "Trello Board";
