@@ -1,6 +1,6 @@
-import { LightningElement, api } from 'lwc';
-import trello from '@salesforce/resourceUrl/trelloEmbed';
-import { loadScript } from 'lightning/platformResourceLoader';
+import { LightningElement, api } from "lwc";
+import trello from "@salesforce/resourceUrl/trelloEmbed";
+import { loadScript } from "lightning/platformResourceLoader";
 
 export default class TrelloWidget extends LightningElement {
     @api url;
