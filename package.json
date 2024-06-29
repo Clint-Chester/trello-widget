@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/edgewatercricketclub/trello-widget#readme",
   "devDependencies": {
-    "@salesforce/sfdx-lwc-jest": "^1.0.1"
+    "@salesforce/sfdx-lwc-jest": "^5.0.0"
   }
 }
